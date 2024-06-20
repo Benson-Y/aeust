@@ -1,0 +1,139 @@
+/*視窗背景色設定*/
+body{
+    background-color: rgb(250, 235, 215);
+    margin: 0%;
+
+}
+
+
+/*連結顏色設定*/
+
+
+
+
+/*頁首,導覽,頁尾的共通設定*/
+header{
+
+    height: 95px;
+    width: 1440px;
+    background-color: #EB7860;
+    margin: 0% auto;
+    text-align: center ;
+    font-size: 50%
+}
+
+
+
+/*導覽樣式設定*/
+nav{
+    height: 100px;
+    width: 1440px;
+    background-color: #EB7860;
+    margin: 0 auto;
+}
+.menu{list-style: none;
+font-size: 35px;}
+.menu-item a{
+    text-decoration: underline;
+    
+}
+.menu-item{
+    margin: 0 auto;
+    display: inline-block;
+    width: 200px;
+    line-height: 100px;
+    text-align: center;
+    
+    
+}
+.menu-item a:hover{
+    color: azure;
+}
+
+
+/*頁面標題設定*/
+
+
+
+/*次標題設定*/
+
+
+
+
+/*小標題設定*/
+
+
+
+
+/*內容區塊邊框設定*/
+main{
+    min-height: 900px;
+    width: 1440px;
+    background-color: #3A2222;
+    margin: 0% auto;
+
+}
+aside{
+    width: 50%;
+    background-color: #3A2222;
+    height: 1440px;
+    float: left;
+    margin: 0 auto;
+}
+section{
+    width: 50%;
+    background-color: #3A2222;
+    height: 1440px;
+    float: right;
+}
+.fs{
+    font-size: 300%;
+    color: rgb(252, 255, 255);
+    text-align: center;
+    margin-top: 150px;
+    
+                    
+}
+.fg{
+    font-size: 100px;
+    color: white;
+    margin-left: 200px;
+}
+
+h1{font-size: 100px;
+color: white;
+margin-top: 250px;
+margin-left: 120px;
+text-align: center;
+}
+h2{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+h3{font-size: 45px;
+color: white;
+margin-left: 100px;
+text-align: left;
+}
+
+/*「更多介紹」連結設定*/
+
+
+
+
+/*連結圖示設定*/
+
+
+
+
+/*區塊間分隔*/
+
+
+
+
+/*文繞圖設定*/
+
+
+
+/*圓形圖片設定*/
