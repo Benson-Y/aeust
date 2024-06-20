@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/*視窗背景色設定*/
+body {
+    background-image: url(../img/cat2.png);
+    background-color: rgb(39, 154, 255);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+
+
+}
+
+/*連結顏色設定*/
+a {
+    color: rgb(154, 78, 184);
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*導覽樣式設定*/
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 120px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #ffffff;
+    border: 1px solid #000;
+    margin: 0px 10px
+}
+
+.menu a {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(167, 255, 178);
+    background-color: deeppink;
+    text-decoration: none;
+
+}
+
+.menu a:hover {
+    background-color: aqua;
+    color: #000;
+
+
+
+
+}
+
+
+
+
+/*頁面標題設定*/
+h1 {
+    background-color: darkgray;
+    color: rgb(255, 218, 51);
+    width: 50%;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 3em;
+    border: #000 double 10px;
+    border-radius: 50%;
+    text-shadow: 10px 5px 5px #000;
+    box-shadow: 0 0 10px #000;
+
+}
+
+/*次標題設定*/
+h2 {
+    background-color: rgb(255, 218, 51);
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    border: #000 double 5px;
+}
+
+/*小標題設定*/
+.h-sub {
+    padding: 15px;
+    background-color: antiquewhite;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #000 inset;
+    width: 215px;
+    margin: 10px auto;
+
+
+
+
+}
+
+/*內容區塊邊框設定*/
+#content {
+    width: 980px;
+    margin: 40px auto;
+    padding: 20px 80px;
+    border: 1px #000;
+    background-color: rgb(255, 157, 45, 0.8);
+
+}
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+.imgL {
+    float: left;
+    margin-right: 20px;
+}
+
+.imgR {
+    float: right;
+    margin-left: 20px;
+
+
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+    border-radius: 50%;
+
+
+}
+
+
+/*圓形圖片設定*/
+
+.photo {
+    width: 400px;
+    height: 300px;
+    margin: 25px 50px;
+
+
+
+}

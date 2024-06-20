@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*視窗背景色設定*/
+body {
+    background-color: bisque;
+    
+}
+
+/*連結顏色設定*/
+a {
+    color: rgb(154, 78, 184);
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*導覽樣式設定*/
+
+
+/*頁面標題設定*/
+h1 {
+    background-color: darkgray;
+    color: rgb(255, 218, 51);
+    width: 50%;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 3em;
+    border: #000 double 10px;
+    border-radius: 50%;
+    text-shadow: 10px 5px 5px #000;
+    box-shadow: 0 0 10px #000;
+
+}
+
+/*次標題設定*/
+h2 {
+    background-color: rgb(255, 218, 51);
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    border: #000 double 5px;
+}
+
+/*小標題設定*/
+.h-sub {
+    padding: 15px;
+    background-color: antiquewhite;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #000 inset;
+    width: 215px;
+    margin: 10px auto;
+
+
+
+
+}
+
+/*內容區塊邊框設定*/
+#content {
+    width: 950px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 1px #000;
+    background-color: aquamarine;
+
+}
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+
+
+/*圓形圖片設定*/
+
+.photo {
+    width: 400px;
+    height: 300px;
+    margin: 25px 50px ;
+
+
+
+}

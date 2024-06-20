@@ -1,0 +1,39 @@
+body{
+    margin: 0%;
+}
+
+
+header{
+    height: 200px;
+    background-color: #6d9ac7;
+}
+
+nav {
+    height: 200px;
+    background-color: #1269cc;
+}
+
+main {
+    min-height: 1000px;
+    background-color: crimson;
+}
+
+aside {
+    width: 20%;
+    background-color: #51eefc;
+    min-height: 1000px;
+    float: left;
+}
+
+section {
+    width: 80%;
+    background-color: #ffffff;
+    min-height: 1000px;
+    float: left;
+}
+
+footer {
+    height: 100px;
+    background-color: #303030;
+    clear: both;
+}
